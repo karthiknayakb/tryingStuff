@@ -1,0 +1,11 @@
+1. "criminal data" file reads the sample file.
+	# Data Stored in pandas "Dataframe"
+	# Using the common columns (values that dont change much), 'generate string' method written.
+	# By filtering the criminal data, passing it to "generate string" method and result is stored in a set "criminal set"
+	# Same is done to non criminal data and result is stored in "non criminal set"
+	# Difference between "criminal set" and "non criminal set" is taken and stored in a file
+
+2. "criminal test" file reads the test file.
+	# same "generate string" method is written.
+	# for each column, string is generated and checked with the stored file (by previous step).
+	# if value is present, value is 1 else 0.
